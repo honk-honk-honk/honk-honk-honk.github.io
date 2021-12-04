@@ -16,34 +16,5 @@
       <description>This is the first post. I make deploy mechanism from MacOS notes. I’ll write about it and make recursive post about how this post made. Later</description>
     </item>
     
-    <item>
-      <title>WhyNot</title>
-      <link>https://honk-honk-honk.github.io/posts/whynot/</link>
-      <pubDate>Sun, 05 Dec 2021 01:29:49 +0300</pubDate>
-      
-      <guid>https://honk-honk-honk.github.io/posts/whynot/</guid>
-      <description>Make blog record from notes
-Why not?
-Or ?</description>
-    </item>
-    
-    <item>
-      <title>Second</title>
-      <link>https://honk-honk-honk.github.io/posts/second/</link>
-      <pubDate>Sun, 05 Dec 2021 00:10:31 +0300</pubDate>
-      
-      <guid>https://honk-honk-honk.github.io/posts/second/</guid>
-      <description>#Second One Still no idea</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://honk-honk-honk.github.io/posts/test/</link>
-      <pubDate>Sat, 04 Dec 2021 23:34:41 +0300</pubDate>
-      
-      <guid>https://honk-honk-honk.github.io/posts/test/</guid>
-      <description>Hello and welcome to the enrichment center. And we are ready begin the process&amp;hellip;</description>
-    </item>
-    
   </channel>
 </rss>
