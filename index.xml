@@ -5,14 +5,25 @@
     <link>https://honk-honk-honk.github.io/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://honk-honk-honk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Sep 2022 23:30:43 +0300</lastBuildDate><atom:link href="https://honk-honk-honk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://honk-honk-honk.github.io/</link>
-      <pubDate>Sat, 03 Sep 2022 23:57:00 +0300</pubDate>
+      <title>Second</title>
+      <link>https://honk-honk-honk.github.io/posts/second/</link>
+      <pubDate>Sat, 03 Sep 2022 23:30:43 +0300</pubDate>
       
-      <guid>https://honk-honk-honk.github.io/</guid>
-      <description>Hello and welcome to the enrichment center. </description>
+      <guid>https://honk-honk-honk.github.io/posts/second/</guid>
+      <description>Ok. That’s interesting. I totally forgot about this blog. Today I suddenly found it. And I found my note about autoposting. I did a little investigation about how I made this autoposting mechanism. Well, i’m thought I was smarter :) It’s pretty easy, but there is one critical dependency - it based on MacOS automator. There is requirements.
+ Static site generator. I used «Hugo». Any text editor at you like.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://honk-honk-honk.github.io/posts/first/</link>
+      <pubDate>Sun, 05 Dec 2021 01:34:18 +0300</pubDate>
+      
+      <guid>https://honk-honk-honk.github.io/posts/first/</guid>
+      <description>This is the first post. I make deploy mechanism from MacOS notes. I’ll write about it and make recursive post about how this post made. Later</description>
     </item>
     
   </channel>
