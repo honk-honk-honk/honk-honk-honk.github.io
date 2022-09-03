@@ -60,7 +60,7 @@ I did a little investigation about how I made this autoposting mechanism. Well, 
 cat content/posts/$1.md ./temp.txt &gt; ./temp.md
 mv ./temp.md ./content/posts/$1.md
 /usr/local/bin/hugo -D
-cp -r ./public/ /Users/honk/honk-honk-honk.github.io
+cp -r ./public/ /Users/bca19/honk-honk-honk.github.io
 cd /Users/honk/honk-honk-honk.github.io
 git add -A
 git commit -m &quot;new post $1&quot;
