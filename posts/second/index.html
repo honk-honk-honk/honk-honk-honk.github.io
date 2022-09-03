@@ -39,8 +39,33 @@
         <h1>Second</h1>
     </header>
     <div class="content__body">
-        <p>#Second One
-Still no idea</p>
+        <p>Ok. That’s interesting. I totally forgot about this blog. Today I suddenly found it. And I found my note about autoposting.
+I did a little investigation about how I made this autoposting mechanism. Well, i’m thought I was smarter :) It’s pretty easy, but there is one critical dependency - it based on MacOS automator. There is requirements.</p>
+<ul>
+<li>Static site generator. I used «Hugo».</li>
+<li>Any text editor at you like.</li>
+<li>MacOS automator</li>
+<li>Git</li>
+<li>GitHub pages hosting</li>
+</ul>
+<p>Usage is very simple. Just write you post in any text editor, highlight it, and click, in the «services» sub-menu at «post to blog» button, and that’s all! Just like a «share» button, but for GitHub pages. One serious restriction - no images.</p>
+<p>Automator process have 3 parts:</p>
+<ul>
+<li>Create text file contains highlighted text for future usage.</li>
+<li>Take post name</li>
+<li>Run bash script:</li>
+</ul>
+<pre tabindex="0"><code>cd /Users/honk/blog
+/usr/local/bin/hugo new posts/$1.md
+cat content/posts/$1.md ./temp.txt &gt; ./temp.md
+mv ./temp.md ./content/posts/$1.md
+/usr/local/bin/hugo -D
+cp -r ./public/ /Users/bca19/honk-honk-honk.github.io
+cd /Users/honk/honk-honk-honk.github.io
+git add -A
+git commit -m &quot;new post $1&quot;
+git push -u origin master
+</code></pre><p>That’s all, folks!</p>
 
     </div>
     <footer class="content__footer"></footer>
@@ -60,7 +85,7 @@ Still no idea</p>
     
         <p>
             
-            2021-12-05
+            2022-09-03
         </p>
     
 
